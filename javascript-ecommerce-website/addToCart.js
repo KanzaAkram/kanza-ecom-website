@@ -42,7 +42,6 @@ export const addToCart = (event, id, stock) => {
   }
 
   if (existingProd) {
-    // alert("bhai duplicate hai");
     return false;
   }
 
